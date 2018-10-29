@@ -1,13 +1,10 @@
-html {font-size: 1em;  /* 22px */}
-
+html {font-size: 1em;}
 body {
 	background: black;
 	font-family: 'Nunito', sans-serif;
 	overflow: hidden;
-	font-size: 100%;     /* flexible baseline */
-    line-height: 1.4;
-}
-
+	font-size: 100%;
+    line-height: 1.4;}
 section {
 	color: white;
 	border-radius: 1em;
@@ -17,38 +14,19 @@ section {
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
-	text-align: center;
-}
-
-a {
-	text-decoration: none;
-	outline: 0;
-
-}
-a:link {
-	color: white;
-}
-a:visited {
-	color: white;
-}
-a:hover {
-	color: #cccccc;
-}
-a:active {
-	color: #515151;
-} 
-a:focus {
-	color: grey;
-}
-
+	text-align: center;}
+a { text-decoration: none; outline: 0;}
+a:link { color: white;}
+a:visited { color: white;}
+a:hover { color: #cccccc;}
+a:active { color: #515151;} 
+a:focus { color: grey;}
 #bgvideo {
 	position: fixed;
 	right: 0;
 	bottom: 0;
 	min-width: 100%;
-	min-height: 100%;
-}
-
+	min-height: 100%;}
 .footer {
 	position: fixed;
 	left: 0;
@@ -56,5 +34,4 @@ a:focus {
 	width: 100%;
 	color: white;
 	text-align: center;
-	opacity: 0.4;
-}
+	opacity: 0.4;}
