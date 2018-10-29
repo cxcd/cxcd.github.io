@@ -1,0 +1,54 @@
+body {
+	background: black;
+	font-family: 'Nunito', sans-serif;
+}
+
+section {
+	color: white;
+	border-radius: 1em;
+	padding: 1em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+a {
+	text-decoration: none;
+	outline: 0;
+
+}
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: #cccccc;
+}
+a:active {
+	color: #515151;
+} 
+a:focus {
+	color: grey;
+}
+
+#bgvideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	opacity: 0.4;
+}
