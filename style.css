@@ -1,11 +1,14 @@
+html {font-size: 1em;  /* 22px */}
+
 body {
 	background: black;
 	font-family: 'Nunito', sans-serif;
 	overflow: hidden;
+	font-size: 100%;     /* flexible baseline */
+    line-height: 1.4;
 }
 
 section {
-	font-size: calc((.4em + 2vmin) + (.4em + 2vmax))/10;
 	color: white;
 	border-radius: 1em;
 	padding: 1em;
@@ -14,6 +17,7 @@ section {
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 a {
