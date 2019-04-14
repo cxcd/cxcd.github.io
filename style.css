@@ -1,9 +1,9 @@
 body {
-	background-color: #0d0d0d;
+	background-color: #111111;
 	background-image: url("shared_files/bg5.png");
 	background-attachment: fixed;
     background-repeat: no-repeat;
-	background-size: 70% auto;
+	background-size: 60% auto;
     background-position: center;
 	
 	font-family: 'Muli', sans-serif;
@@ -27,6 +27,7 @@ section {
 	border-radius: 1em;
 	padding: 1em;
 	position: absolute;
+	text-align: center;
 	top: 50%;
 	left: 50%;
 	margin-right: -50%;
